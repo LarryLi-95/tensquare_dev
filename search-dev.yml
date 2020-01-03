@@ -6,3 +6,8 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: 192.168.140.129:9300
+  cloud:
+    refresh:
+      refreshable: none
+  rabbitmq:
+    host: 192.168.140.129
