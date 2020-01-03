@@ -12,7 +12,7 @@ spring:
   jpa:
     database: mysql
     show-sql: true
-   cloud:
+  cloud:
     refresh:
       refreshable: none
   rabbitmq:
