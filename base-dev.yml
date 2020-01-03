@@ -8,6 +8,7 @@ spring:
     url: jdbc:mysql://192.168.140.129:3306/tensquare_base?characterEncoding=utf-8&useSSL=false
     username: root
     password: root
+    initialize: false
   jpa:
     database: mysql
     show-sql: true
