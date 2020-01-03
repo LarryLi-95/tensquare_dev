@@ -13,6 +13,9 @@ spring:
     show-sql: true
   redis:
     host: 192.168.140.129
+  cloud:
+    refresh:
+      refreshable: none
   rabbitmq:
     host: 192.168.140.129
 jwt:
