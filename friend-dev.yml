@@ -11,6 +11,11 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+  cloud:
+    refresh:
+      refreshable: none
+  rabbitmq:
+    host: 192.168.140.129
 eureka:
   client:
     service-url:
